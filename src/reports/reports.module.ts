@@ -4,7 +4,7 @@ import { ReportsService } from './reports.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Report } from './reports.entity';
 @Module({
-  imports: [TypeOrmModule.forFeature([Reports])],
+  imports: [TypeOrmModule.forFeature([Report])],
   controllers: [ReportsController],
   providers: [ReportsService],
 })
