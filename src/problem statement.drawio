@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T06:35:26.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.2" etag="6zqvNp8P-ZqAtefLe0st" type="github"><diagram id="yy7V1IrCHKM3VrIjpmN8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-30T06:40:35.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FQajuifD5OYL3yxIWA_k" version="20.2.2" type="github">
+  <diagram id="yy7V1IrCHKM3VrIjpmN8" name="페이지-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-5" target="KC6oDA8V-b73y0kQ5vmW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Admin route! Should&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;probably see extra properties&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-7" value="{id , email, age, name}&lt;div style=&quot;padding: 0px; margin: 0px; font-size: 14px;&quot;&gt;&lt;br style=&quot;padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-8" target="KC6oDA8V-b73y0kQ5vmW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Public route! Should see &lt;br&gt;far less into tied to a user&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-9" value="{id , email}&lt;div style=&quot;padding: 0px; margin: 0px; font-size: 14px;&quot;&gt;&lt;br style=&quot;padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-10" target="KC6oDA8V-b73y0kQ5vmW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-10" value="Request&lt;br&gt;GET&lt;br&gt;/admin/auth/2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-11" target="KC6oDA8V-b73y0kQ5vmW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-11" value="Request&lt;br&gt;GET&lt;br&gt;/auth/2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-14" value="User Controller&lt;br&gt;&lt;br&gt;findUserForAdmin()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-15" value="User Controller&lt;br&gt;&lt;br&gt;findUser()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-18" target="KC6oDA8V-b73y0kQ5vmW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-18" target="KC6oDA8V-b73y0kQ5vmW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-18" value="UserService&lt;br&gt;&lt;br&gt;findOne()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="697" y="140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-21" target="KC6oDA8V-b73y0kQ5vmW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-21" value="User Entity Instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="702" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
