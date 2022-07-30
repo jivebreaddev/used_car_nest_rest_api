@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T06:50:24.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="uGq7gv9Rl29BNJpL8-n-" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T07:03:54.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FOnLjUQDwPyOPVv66Aae" version="20.2.2" type="github">
   <diagram id="yy7V1IrCHKM3VrIjpmN8" name="페이지-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,6 +141,57 @@
         </mxCell>
         <mxCell id="KC6oDA8V-b73y0kQ5vmW-52" value="Reference to the req handler in controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="480" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-57" target="KC6oDA8V-b73y0kQ5vmW-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-57" value="Request&lt;br&gt;GET /auth/2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-59" target="KC6oDA8V-b73y0kQ5vmW-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-59" value="Users&lt;br&gt;Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-60" value="Users&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.01;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-62" target="KC6oDA8V-b73y0kQ5vmW-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-62" value="findUser()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1570" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-64" target="KC6oDA8V-b73y0kQ5vmW-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-64" value="findOne()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1570" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-65" value="User Instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1600" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-66" value="Custom&lt;br&gt;Interceptor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1600" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-67" target="KC6oDA8V-b73y0kQ5vmW-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-67" value="User DTO&lt;br&gt;instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="1640" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KC6oDA8V-b73y0kQ5vmW-68" target="KC6oDA8V-b73y0kQ5vmW-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-68" value="User Instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1630" width="67.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-70" value="User DTO&lt;br&gt;instance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1600" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-72" value="DTO that describes how to serialize a user for this route handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
