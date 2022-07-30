@@ -29,7 +29,7 @@ export class UsersService {
   async update(id: number, attrs: Partial<User>) {
     const user = await this.findOne(id);
     if (!user) {
-      throw new Error('user not found');
+      throw new Error('user not found'); /// exception thrown by NEST is prefered bad request and exception
     }
     Object.assign(user, attrs);
     return this.repo.save(user);
