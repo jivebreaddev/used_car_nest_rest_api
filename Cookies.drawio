@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T10:31:26.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.2" etag="YZijVmF1144unm-cg3tL" type="github"><diagram id="nNxjWqDSe3csK6PNWkuJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-30T10:35:04.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kEs_E1jVVdRAvdRi_EZz" version="20.2.2" type="github">
+  <diagram id="nNxjWqDSe3csK6PNWkuJ" name="페이지-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="370" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-2" value="SERVER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="10" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-3" value="GET /asdf&lt;br&gt;Cookie : 34j1klfdsf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRcDKvtNUEr8mUDLl8iw-4" target="BRcDKvtNUEr8mUDLl8iw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-4" value="Cookie-Session lib&lt;br&gt;looks at the &#39;Cookie&#39; HEADER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="50" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRcDKvtNUEr8mUDLl8iw-5" target="BRcDKvtNUEr8mUDLl8iw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BRcDKvtNUEr8mUDLl8iw-5" target="BRcDKvtNUEr8mUDLl8iw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-5" value="Cookie-Session decodes the string, resulting in an obj" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRcDKvtNUEr8mUDLl8iw-6" target="BRcDKvtNUEr8mUDLl8iw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-6" value="We get access to session obj in a req handler using a decorator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRcDKvtNUEr8mUDLl8iw-7" target="BRcDKvtNUEr8mUDLl8iw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRcDKvtNUEr8mUDLl8iw-7" target="BRcDKvtNUEr8mUDLl8iw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-7" value="We add/remove/change properties on the session obj" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-8" value="Cookie-Session sees the updated session and turns it into an encrypted string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-9" value="Session&lt;br&gt;{color: &#39;red&#39;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-10" value="Session&lt;br&gt;{color: &#39;blue&#39;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="320" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
