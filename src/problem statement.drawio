@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T06:45:16.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="79xGBg-3M3MFdX1N-IHw" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T06:45:55.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="l140FQp_GYddsvdyZ0Es" version="20.2.2" type="github">
   <diagram id="yy7V1IrCHKM3VrIjpmN8" name="페이지-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KC6oDA8V-b73y0kQ5vmW-32" value="USER DTO&lt;br&gt;DTO that describes how to serialize a user for this particular route handler&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="70" y="570" width="225" height="160" as="geometry" />
+          <mxGeometry x="72.5" y="600" width="225" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-37" value="USER DTO&lt;br&gt;DTO that describes how to serialize a user for this particular route handler&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KC6oDA8V-b73y0kQ5vmW-38" value="USER DTO&lt;br&gt;DTO that describes how to serialize a user for this particular route handler&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
