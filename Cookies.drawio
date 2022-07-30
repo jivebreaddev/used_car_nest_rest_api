@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T10:35:09.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Thm-_SUdJKieRMQr2Ae-" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T10:35:23.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-l4oFwtZQT2SOJQqO4ny" version="20.2.2" type="github">
   <diagram id="nNxjWqDSe3csK6PNWkuJ" name="페이지-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,13 @@
         <mxCell id="BRcDKvtNUEr8mUDLl8iw-2" value="SERVER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="10" width="370" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="BRcDKvtNUEr8mUDLl8iw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BRcDKvtNUEr8mUDLl8iw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BRcDKvtNUEr8mUDLl8iw-3" value="GET /asdf&lt;br&gt;Cookie : 34j1klfdsf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="30" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BRcDKvtNUEr8mUDLl8iw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BRcDKvtNUEr8mUDLl8iw-4" target="BRcDKvtNUEr8mUDLl8iw-5">
           <mxGeometry relative="1" as="geometry" />
