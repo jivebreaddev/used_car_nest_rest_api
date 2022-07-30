@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T08:30:58.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5t5joooEkyfEPZhq4e7q" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T08:33:59.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tnYZZgCgivQK9wl3NQp4" version="20.2.2" type="github">
   <diagram id="ymQraVpWnZhICFqXIH5N" name="페이지-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,6 +82,36 @@
         </mxCell>
         <mxCell id="SpZRpYGo7krfzBppaFJx-26" value="Problem!!&lt;br&gt;TOO MANY FUNCTIONS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="620" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="620" width="720" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-28" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Users Module&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="620" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-29" value="Users Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="SpZRpYGo7krfzBppaFJx-30" target="SpZRpYGo7krfzBppaFJx-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="SpZRpYGo7krfzBppaFJx-30" target="SpZRpYGo7krfzBppaFJx-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-30" value="Users Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="340" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="SpZRpYGo7krfzBppaFJx-31" target="SpZRpYGo7krfzBppaFJx-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-31" value="Auth&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="340" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="SpZRpYGo7krfzBppaFJx-32" target="SpZRpYGo7krfzBppaFJx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpZRpYGo7krfzBppaFJx-32" value="Users Repository" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="560" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
