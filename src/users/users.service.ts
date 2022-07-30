@@ -14,7 +14,35 @@ export class UsersService {
     // create an entity instance
     // Validation logic in instance creation can be done.
 
-    return this.repo.save(user); // {email, password} -> could be done but instance creation is better
-    // save entity to the db
+    return this.repo.save(user); // {email, password} -> could be done but instance creation is better because hooks can be executed
+    // save entity to the db                             like @afterinsert or @afterupdate
+  }
+
+  async findOne(id: number) {
+    return this.repo.findOne(id);
+  }
+
+  find(email: string) {
+    return this.repo.find({ email });
+  }
+  // Update part of the properties  from user with Partial
+  async update(id: number, attrs: Partial<User>) {
+    const user = await this.findOne(id);
+    if (!user) {
+      throw new Error('user not found');
+    }
+    Object.assign(user, attrs);
+    return this.repo.save(user);
+  }
+  // save will do the hooks vs update will not
+  // retrieve the instance and apply update and save to invoke hook
+  // if hooks are not required, do update
+  // remove[Entity] vs delete(id) -> one trip to database and hook will not be executed
+  async remove(id: number) {
+    const user = await this.findOne(id);
+    if (!user) {
+      throw new Error('user not found');
+    }
+    return this.repo.remove(user);
   }
 }
