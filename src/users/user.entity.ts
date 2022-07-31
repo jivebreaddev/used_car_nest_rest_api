@@ -1,4 +1,11 @@
-import { AfterInsert, Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  AfterInsert,
+  Entity,
+  Column,
+  PrimaryGeneratedColumn,
+  OneToMany,
+} from 'typeorm';
+import { Report } from '../reports/reports.entity';
 // decorators
 @Entity()
 export class User {
@@ -10,4 +17,8 @@ export class User {
 
   @Column()
   password: string;
+
+  @OneToMany(() => Report, (report) => report.user)
+  reports: Report[];
+  // report table will add a column of userid
 }
