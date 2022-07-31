@@ -20,13 +20,15 @@ describe('UsersController', () => {
       find: (email: string) => {
         return Promise.resolve([{ id: 1, email, password: 'asdf' } as User]);
       },
-      remove: () => {},
-      update: () => {},
+      // remove: () => {},
+      // update: () => {},
     };
 
     fakeAuthService = {
-      signup: () => {},
-      signin: () => {},
+      // signup: () => {},
+      signin: (email: string, password: string) => {
+        return Promise.resolve({ id: 1, email, password } as User);
+      },
     };
 
     const module: TestingModule = await Test.createTestingModule({
@@ -69,6 +71,19 @@ describe('UsersController', () => {
     } catch (err) {
       done();
     }
+  });
+  it('signin updates session object and returns user', async () => {
+    const session = { userId: -10 };
+    const user = await controller.signin(
+      {
+        email: 'asdf@asdf.com',
+        password: 'asdf',
+      },
+      session,
+    );
+
+    expect(user.id).toEqual(1);
+    expect(session.userId).toEqual(1);
   });
 });
 // we only get to test the functions not decorators
