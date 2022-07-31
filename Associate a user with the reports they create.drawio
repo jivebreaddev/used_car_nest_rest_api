@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T11:05:10.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5CjK8Qa3nZGWlEGwG6rc" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T11:28:55.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RSxQLMMSTQNbq-8z17GA" version="20.2.2" type="github">
   <diagram id="yrpeBRaQr6KSdGHwftCH" name="페이지-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,6 +108,57 @@
         </mxCell>
         <mxCell id="F58hanj43uhJkPzuHPvU-20" value="Association is not automatically fetched when we fetch a User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1270" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-21" value="Associate User when it is created" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1470" width="730" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-22" value="POST /reports" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F58hanj43uhJkPzuHPvU-23" target="F58hanj43uhJkPzuHPvU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-23" value="Cookie: asdf14" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F58hanj43uhJkPzuHPvU-24" target="F58hanj43uhJkPzuHPvU-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-24" value="{year:1950, ...}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F58hanj43uhJkPzuHPvU-25" target="F58hanj43uhJkPzuHPvU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F58hanj43uhJkPzuHPvU-25" target="F58hanj43uhJkPzuHPvU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-25" value="@CurrentUser()&lt;br&gt;Decorator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F58hanj43uhJkPzuHPvU-26" target="F58hanj43uhJkPzuHPvU-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-26" value="@Body()&lt;br&gt;CreateReportDto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-27" value="user&amp;nbsp; entity instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-28" value="Validated CreateReportDto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.397;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="F58hanj43uhJkPzuHPvU-33" target="F58hanj43uhJkPzuHPvU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-33" value="Report Entity Instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-34" value="user&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F58hanj43uhJkPzuHPvU-36" value="Reports Repo&lt;br&gt;Save Method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
