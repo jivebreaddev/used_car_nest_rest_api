@@ -3,16 +3,30 @@ import { UsersService } from './users.service';
 import { AuthService } from './auth.service';
 import { hasUncaughtExceptionCaptureCallback } from 'process';
 import {User} from './user.entity';
+import { SimpleConsoleLogger } from 'typeorm';
 
+
+let service: AuthService;
+let fakeUsersService: Partial<UsersService>;
 
 describe('AuthService', () => {
-    let service: AuthService;
-    let fakeUsersService: Partial<UsersService>;
+    
+
+
     beforeEach(async () => {
+        const users: User[] = [];
         const fakeUsersService: Partial<UsersService> = {
-            find: () => Promise.resolve([]), // it is asynchronous !!
-            create: (email: string, password: string) =>
-              Promise.resolve({ id: 1, email, password } as User), // it is asynchronous !!
+            find: (email:string) => {
+                const filteredUsers = users.filter(user => user.email === email)
+                return Promise.resolve(filteredUsers);
+            }, // it is asynchronous !!
+            create: (email: string, password: string) =>{
+
+                const user = {id: Math.floor(Math.random()* 99999), email, password};
+                users.push(user);
+                return Promise.resolve(user);
+            }
+              //Promise.resolve({ id: 1, email, password } as User), // it is asynchronous !!
           };
           // create module
           const module = await Test.createTestingModule({
@@ -43,7 +57,7 @@ describe('AuthService', () => {
     })
     // conflict, service needs different requirements
     it('throws an error if user signs up with email that is in use ', async(done)=>{
-        fakeUsersService.find = () => Promise.resolve([{id:1, email:'a', password:'1'} as User])
+        await service.signup('asdf@asdf.com','asdf')
         try{ await service.signup('asdf@asdf.com','asdf')
     }catch (err) {
         done();
@@ -56,7 +70,21 @@ describe('AuthService', () => {
         done();
     }
     })
+    it('throws if an invalid password is provided', async(done)=>{
+        await service.signup('asdf@asdf.com','asdf')
+        try{
+            await service.signin('asdf@asdf.com','password')
+    }catch (err) {
+        done();
+    }
+    })
 
+    it('returns a user if correct password is provided', async(done)=>{
+        
+        await service.signup('asdf@asdf.com', 'password');
+        const user = await service.signin('asdf@asdf.com', 'password');
+        expect(user).toBeDefined();
+    })
 })
     
 });
